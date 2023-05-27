@@ -66,9 +66,11 @@ jobs:
           cp -r * ../deploy/posts
           cd ../deploy
           npx volglass build
-
       - name: Setup Pages
         uses: actions/configure-pages@v3
+        with:
+          static_site_generator: "next"
+          enablement: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
