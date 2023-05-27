@@ -66,8 +66,16 @@ jobs:
         with:
           path: deploy
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
-      - name: Deploy page
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+        with:
+          static_site_generator: "next"
+          enablement: true
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          folder: 'deploy/_volglass'
+          path: './deploy/_volglass'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
