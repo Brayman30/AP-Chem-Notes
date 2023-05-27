@@ -54,19 +54,27 @@ jobs:
             npm init --yes
             npm install --save-dev volglass-cli@latest
             npx volglass init
+          else 
+            cd deploy
+            rm -rf posts
+            mkdir posts
+            cd volglass
+            rm -rf posts
+            mkdir posts
           fi
-      - name: Save cache
-        uses: actions/cache/save@v3
-        with:
-          path: deploy
-          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
       - name: Build pages
         run: |
           cd content
           cp -r * ../deploy/posts
           cd ../deploy
           npx volglass build
-          git init
+      - name: Save cache
+        uses: actions/cache/save@v3
+        with:
+          path: deploy
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+      - name: Init git
+        run: git init
       - name: Deploy page
         uses: JamesIves/github-pages-deploy-action@v4
         with:
