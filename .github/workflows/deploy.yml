@@ -66,6 +66,7 @@ jobs:
           cp -r * ../deploy/posts
           cd ../deploy
           npx volglass build
+          git init
       - name: Deploy page
         uses: JamesIves/github-pages-deploy-action@v4
         with:
