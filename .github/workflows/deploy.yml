@@ -46,7 +46,7 @@ jobs:
           key: deploy
       - name: Setup deploy environment
         run: |
-          if [ -d deploy ]; then
+          if ! [ -d deploy ]; then
             # setup volglass cli
             mkdir -p deploy
             cd deploy
