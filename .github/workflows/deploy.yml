@@ -32,8 +32,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          path: content
       - name: Setup java
         uses: actions/setup-java@v3
         with:
@@ -64,17 +62,14 @@ jobs:
           fi
       - name: Build pages
         run: |
-          cd content
-          cp -r * ../deploy/posts
-          cd ../deploy
+          cp -r $(ls | grep -v deploy) deploy/posts
+          cd deploy
           npx volglass build
       - name: Save cache
         uses: actions/cache/save@v3
         with:
           path: deploy
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
-      - name: Init git
-        run: git init
       - name: Deploy page
         uses: JamesIves/github-pages-deploy-action@v4
         with:
