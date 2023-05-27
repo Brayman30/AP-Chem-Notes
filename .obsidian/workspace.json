@@ -4,17 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "3401ad8997a5d69c",
+        "id": "4857f491d9020d1b",
         "type": "tabs",
         "children": [
-          {
-            "id": "2500eb5d99554c4f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
           {
             "id": "dc96109b4a9a934f",
             "type": "leaf",
@@ -26,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1add93a6bd090737",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README-ja.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README-ja.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README-ja.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README-ja.md"
+                "file": "README.md"
               }
             }
           }
@@ -167,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1add93a6bd090737",
+  "active": "dc96109b4a9a934f",
   "lastOpenFiles": [
     "README.md",
     "README-ja.md"
