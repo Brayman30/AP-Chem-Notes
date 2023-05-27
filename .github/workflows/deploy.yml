@@ -34,10 +34,11 @@ jobs:
         uses: actions/checkout@v3
         with:
           path: content
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+      - name: Setup java
+        uses: actions/setup-java@v3
         with:
-          version: 6
+          destribution: "temurin"
+          java-version: "17"
       - name: Setup caching
         id: cache-restore
         uses: actions/cache/restore@v3
@@ -50,9 +51,9 @@ jobs:
             # setup volglass cli
             mkdir -p deploy
             cd deploy
-            pnpm init --yes
-            pnpm install --save-dev volglass-cli
-            pnpm volglass init
+            npm init --yes
+            npm install --save-dev volglass-cli@latest
+            npx volglass init
           fi
       - name: Save cache
         uses: actions/cache/save@v3
@@ -64,7 +65,7 @@ jobs:
           cd content
           cp -r * ../deploy/posts
           cd ../deploy
-          pnpm volglass build
+          npx volglass build
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
