@@ -1,0 +1,2 @@
+
+## Electronegitivity Review

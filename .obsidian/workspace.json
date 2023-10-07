@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Topic 2.1 - Types of Chemical Bonds.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Topic 2.1 - Types of Chemical Bonds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Topic 2.1 - Types of Chemical Bonds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Topic 2.1 - Types of Chemical Bonds.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "1927f7cfe76fc9b2",
   "lastOpenFiles": [
-    "Unit 2 - Molecular and Ionic Compound Structure and Properties.md",
+    "Topic 2.3 - Structure of Ionic Solids.md",
     "Topic 2.7 - VSEPR and Bond Hybridization.md",
+    "Unit 2 - Molecular and Ionic Compound Structure and Properties.md",
+    "Topic 2.1 - Types of Chemical Bonds.md",
+    "README.md",
     "Topic 2.6 - Resonance and Formal Charge.md",
     "Topic 2.5 - Lewis Diagrams.md",
     "Topic 2.4 - Structure of Metals and Alloys.md",
-    "Topic 2.3 - Structure of Ionic Solids.md",
     "Topic 2.2 - Intramolecular Force and Potential Energy.md",
-    "Topic 2.1 - Types of Chemical Bonds.md",
-    "README.md",
     "volglass-obsidian-git-gh-pages/README.md",
     "volglass-obsidian-git-gh-pages"
   ]
