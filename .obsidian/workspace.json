@@ -11,12 +11,8 @@
             "id": "1927f7cfe76fc9b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic 2.1 - Types of Chemical Bonds.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic 2.1 - Types of Chemical Bonds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topic 2.1 - Types of Chemical Bonds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topic 2.1 - Types of Chemical Bonds.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,10 +140,20 @@
   },
   "active": "1927f7cfe76fc9b2",
   "lastOpenFiles": [
+    "Topic 2.1 - Types of Chemical Bonds.md",
+    "posts/Unit 2 - Molecular and Ionic Compound Structure and Properties.md",
+    "posts/Topic 2.7 - VSEPR and Bond Hybridization.md",
+    "posts/Topic 2.6 - Resonance and Formal Charge.md",
+    "posts/Topic 2.5 - Lewis Diagrams.md",
+    "posts/Topic 2.4 - Structure of Metals and Alloys.md",
+    "posts/Topic 2.3 - Structure of Ionic Solids.md",
+    "posts/Topic 2.2 - Intramolecular Force and Potential Energy.md",
+    "posts/Topic 2.1 - Types of Chemical Bonds.md",
+    "posts/README.md",
+    "posts",
     "Topic 2.3 - Structure of Ionic Solids.md",
     "Topic 2.7 - VSEPR and Bond Hybridization.md",
     "Unit 2 - Molecular and Ionic Compound Structure and Properties.md",
-    "Topic 2.1 - Types of Chemical Bonds.md",
     "README.md",
     "Topic 2.6 - Resonance and Formal Charge.md",
     "Topic 2.5 - Lewis Diagrams.md",
