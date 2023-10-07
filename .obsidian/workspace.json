@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "b71e38528aaa5862",
+    "id": "9e713b468e6f7e0e",
     "type": "split",
     "children": [
       {
-        "id": "4857f491d9020d1b",
+        "id": "7e2400a9c982ed2c",
         "type": "tabs",
         "children": [
           {
-            "id": "dc96109b4a9a934f",
+            "id": "1927f7cfe76fc9b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2e3273cb52a97395",
+    "id": "73dbf4ce41a19ef1",
     "type": "split",
     "children": [
       {
-        "id": "2a07f1cad40ae808",
+        "id": "0e7a9df314e872c9",
         "type": "tabs",
         "children": [
           {
-            "id": "80658f31b27d1b4a",
+            "id": "67122522ed659f29",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "6ce4ab9845f3a75c",
+            "id": "cd07bd8cd3d72ea1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "7187a8fe5c5ada31",
+            "id": "4827c0baf9477c51",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "ac6de9d91891e28a",
+    "id": "3c289a913f059202",
     "type": "split",
     "children": [
       {
-        "id": "33aebbe203a13463",
+        "id": "48410214c7c83611",
         "type": "tabs",
         "children": [
           {
-            "id": "2e88889df71e7e8f",
+            "id": "0513cb7d346d7223",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "2aa7e6794ea0a813",
+            "id": "aedf65a4bf9f5fa3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4c61b22b52bf9514",
+            "id": "03d507b2763f0098",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "4bc8e967b9d97404",
+            "id": "4c1b2a06ef200ad3",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,9 +138,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc96109b4a9a934f",
+  "active": "1927f7cfe76fc9b2",
   "lastOpenFiles": [
     "README.md",
-    "README-ja.md"
+    "volglass-obsidian-git-gh-pages/README.md",
+    "volglass-obsidian-git-gh-pages",
+    "Unit 2 - Molecular and Ionic Compound Structure and Properties.md",
+    "Topic 2.1 - Types of Chemical Bonds.md",
+    "Topic 2.4 - Structure of Metals and Alloys.md",
+    "Topic 2.6 - Resonance and Formal Charge.md",
+    "Topic 2.7 - VSEPR and Bond Hybridization.md",
+    "Topic 2.5 - Lewis Diagrams.md",
+    "Topic 2.3 - Structure of Ionic Solids.md",
+    "Topic 2.2 - Intramolecular Force and Potential Energy.md"
   ]
 }
